@@ -3,7 +3,6 @@ import { Router } from "express";
 import { Film } from "../types";
 
 const router = Router();
-
 const defaultFilms: Film[] = [
   {
     id: 1,
@@ -64,6 +63,7 @@ const defaultFilms: Film[] = [
 
 router.get("/", (_req, res) => {
   res.json(defaultFilms);
+  console.log();
 });
 
 export default router;
