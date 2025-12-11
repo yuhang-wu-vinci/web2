@@ -18,7 +18,7 @@ function App() {
 
       <h1>Vite + React</h1>
 
-      <ClickCounter title="cest un titre" on10ClickMessage="You are a master in the art of clicking !"/>
+      <ClickCounter title="cest un titre" on10ClickMessage="You are a master in the art of clicking !" onButtonMessage="Please click on me now !"/>
 
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
